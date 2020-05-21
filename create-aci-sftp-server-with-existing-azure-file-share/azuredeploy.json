@@ -50,7 +50,7 @@
     "variables": {
         "sftpContainerName": "sftp",
         "sftpContainerGroupName": "sftp-group",
-        "sftpContainerImage": "atmoz/sftp:latest",
+        "sftpContainerImage": "gamullen/sftp:latest",
         "sftpEnvVariable": "[concat(parameters('sftpUser'), ':', parameters('sftpPassword'), ':1001')]",
         "storageAccountId": "[resourceId(parameters('existingStorageAccountResourceGroupName'), 'Microsoft.Storage/storageAccounts', parameters('existingStorageAccountName'))]"
     },
