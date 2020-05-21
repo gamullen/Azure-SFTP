@@ -21,7 +21,7 @@ SFTP is a very widely used protocol which many organizations use today for trans
 
 ## How-To create an on-demand SFTP Server with a new Azure Files persistent storage
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure-Samples%2Fsftp-creation-template%2Fmaster%2Fcreate-aci-sftp-server-and-azure-files%2Fazuredeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https://github.com/gamullen/Azure-SFTP/blob/master/create-aci-sftp-server-and-azure-files/azuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
 <a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FAzure-Samples%2Fsftp-creation-template%2Fmaster%2Fcreate-aci-sftp-server-and-azure-files%2Fazuredeploy.json" target="_blank">
@@ -111,4 +111,4 @@ password that was originally added during creation
 ### Notes
 
 Azure Container Instances is available in selected [locations](https://docs.microsoft.com/en-us/azure/container-instances/container-instances-quotas#region-availability). Please use one of the available location for Azure Container Instances resource.
-The container image used by this template is hosted on [Docker Hub](https://hub.docker.com/r/atmoz/sftp). It is not affiliated with Microsoft in any way, and usage is at your own risk.
+The container image used by this template is hosted on [Docker Hub](https://hub.docker.com/r/gamullen/sftp). It is not affiliated with Microsoft in any way, and usage is at your own risk.
