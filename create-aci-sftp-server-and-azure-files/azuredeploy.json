@@ -53,7 +53,7 @@
         "cliContainerImage": "microsoft/azure-cli:latest",
         "sftpContainerName": "sftp",
         "sftpContainerGroupName": "sftp-group",
-        "sftpContainerImage": "atmoz/sftp:latest",
+        "sftpContainerImage": "gamullen/sftp:latest",
         "sftpEnvVariable": "[concat(parameters('sftpUser'), ':', parameters('sftpPassword'), ':1001')]",
         "storageAccountName": "[concat('sftpstg', uniqueString(resourceGroup().id))]"
     },
